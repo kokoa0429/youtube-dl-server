@@ -6,7 +6,6 @@ const app = express()
 app.use(cors());
 
 app.get("/", function (req, res) {
-
   let rege = /\?v=([^&]+)/
   if(!req.query.u) {
     res.json({
