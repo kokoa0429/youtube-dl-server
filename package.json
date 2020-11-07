@@ -1,0 +1,24 @@
+{
+  "name": "youtube-dl-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kokoa0429/youtube-dl-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kokoa0429/youtube-dl-server/issues"
+  },
+  "homepage": "https://github.com/kokoa0429/youtube-dl-server#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "youtube-dl": "^3.0.2"
+  }
+}
